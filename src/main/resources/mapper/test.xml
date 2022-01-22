@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mplanit.thymeleaf.mapper.TestMapper">
+
+    <select id="select" parameterType="dto" resultType="dto">
+        SELECT * 
+		FROM   부모
+		WHERE  부모 = #{부모}
+    </select>
+
+</mapper>
