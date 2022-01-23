@@ -2,14 +2,14 @@ package com.mplanit.thymeleaf.domain;
 
 public class TestDto {
 
-	private int 부모;
+	private int first_column;
 
-	public int get부모() {
-		return 부모;
+	public int getFirst_column() {
+		return first_column;
 	}
 
-	public void set부모(int 부모) {
-		this.부모 = 부모;
+	public void setFirst_column(int first_column) {
+		this.first_column = first_column;
 	}
 
 }

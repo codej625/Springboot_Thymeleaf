@@ -4,8 +4,8 @@
 
     <select id="select" parameterType="dto" resultType="dto">
         SELECT * 
-		FROM   부모
-		WHERE  부모 = #{부모}
+		FROM   test_table
+		WHERE  first_column = #{first_column}	
     </select>
 
 </mapper>
